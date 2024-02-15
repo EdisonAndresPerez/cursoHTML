@@ -1,0 +1,98 @@
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color:saddlebrown;
+    padding: 20px;
+    display: flex; /* Utilizamos flexbox para alinear elementos horizontalmente */
+    align-items: center; 
+    justify-content: space-evenly;
+}
+
+header h1{
+    margin: 0px;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.triforce {
+    width: 50px; 
+    height: auto; 
+    margin-right: 10px; 
+    margin-left: 20px;
+}
+
+nav a{
+    margin:  0 10px;
+    text-decoration: none; /*para quitar la linea por abajo*/
+    color: blanchedalmond;
+}
+
+.barra-busqueda {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.boton{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #db8534;
+}
+
+.medium-article{
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: burlywood;
+    border: 1px solid saddlebrown;
+    padding: 20px;
+
+}
+
+.medium-article img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.medium-article h2{
+    font-size: 24px;
+}
+
+.medium-article p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+footer{
+    background-color: saddlebrown ;
+    
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p{
+    margin: 0px;
+    width: 60%;
+}
+
+video{
+    width: 20%;
+    margin-bottom: 10px 10px 10px 10px;
+}
