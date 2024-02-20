@@ -1,0 +1,63 @@
+
+body{
+    background-color: wheat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.cabeza{
+    border: 4px solid ;
+    border-radius: 50px;
+    margin-bottom: 10px;
+
+}
+
+.container{
+    border: 10px solid green;
+    
+}
+
+.titulo1{
+    border: 3px solid green;
+    border-radius: 40px;
+    margin-left: 10px;
+    margin-right: 1000px;
+
+}
+
+.link-titulo{
+    margin-left : 10px;
+}
+
+.linea{
+    background-color: black;
+    color:black ;
+    width: 50%;
+    margin-right:auto ;
+    position: absolute;
+}
+
+.imagenLink{
+    margin-top: 15px; /*margin para separar */
+    margin-left: 10px;
+}
+
+.container1{
+    border: 5px solid darkred;
+    margin-top: 10px;
+}
+
+.titulo2{
+    border: 3px solid darkred;
+    border-radius: 40px;
+    margin-left: 10px;
+    margin-right: 1000px;
+}
+
+.parrafo2{
+    margin-left: 10px;
+}
+
+.imagenPokemon{
+    margin-left: 10px;
+}
